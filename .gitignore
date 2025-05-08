@@ -1,0 +1,63 @@
+# ======= PYTHON =======
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info
+dist/
+build/
+.env
+.venv/
+env/
+venv/
+pip-log.txt
+*.log
+
+# ========== JUPYTER NOTEBOOK ============
+.ipynb_checkpoints/
+
+# ========== DATA ============
+data/raw
+data/processed/
+*.csv
+*.tfrecord
+*.h5
+*.npz
+*.zip
+*.tar.gz
+
+# =========== MODEL =============
+model/saved_model
+model/tflite
+*.pb
+*.h5
+*.ckpt
+*.joblib
+
+# ============ TFX ARTIFACTS =============
+tfx_pipeline_output/
+tfx_metadata/
+*.db
+
+# ============ SYSTEM FILES ================
+.DS_Store
+Thumbs.db
+
+# ============ IDE ===============
+.vscode/
+.idea/
+
+# ============== TEST / TEMP ================
+*.tmp
+*.bak
+temp/
+tests/__pycache__/
+
+# =============== DOCKER / CI ==================
+*.docker
+*.container
+.envrc
+.dockerignore
+
+# =============== OTHERS ===================
+logs/
+checkpoints/
