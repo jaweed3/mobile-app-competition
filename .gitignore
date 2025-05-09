@@ -12,6 +12,13 @@ venv/
 pip-log.txt
 *.log
 
+# ========== CONDA ENV ============
+*.conda
+*.env
+*.yaml
+env/
+.conda/
+
 # ========== JUPYTER NOTEBOOK ============
 .ipynb_checkpoints/
 
